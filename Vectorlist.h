@@ -8,7 +8,6 @@ class Vectorlist {
 private:
     vector<T> vec{};
 
-
     void merge(int left, int middle, int right) {
         int subVectorOne = middle - left + 1;
         int subVectorTwo = right - middle;
