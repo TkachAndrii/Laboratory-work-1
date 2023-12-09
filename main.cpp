@@ -16,7 +16,6 @@
     Nodelist<char> charList;
     Nodelist<string> stringList;
 
-
     for (int i = 0; i < sizeIntList; i++) {
         intList.AddLastNode(rand() % 100);
     }
@@ -72,9 +71,6 @@
     doubleList.showList();
     charList.showList();
     stringList.showList();
-
-
-
 
     int sizeIntListVector;
     cout << "Enter the size of IntListArray: ";
