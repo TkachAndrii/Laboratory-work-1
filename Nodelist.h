@@ -196,7 +196,6 @@ private:
         return pv;
     }
 
-
 public:
     nodeList() {
         head = nullptr;
