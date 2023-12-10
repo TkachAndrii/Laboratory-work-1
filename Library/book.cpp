@@ -1,7 +1,7 @@
 #include "book.h"
 
 book::book(std::string &&bookName, std::string &&annotation, std::size_t releaseYear, std::size_t pageQuantity,
-           std::vector<fullName> &&vectorAuthor,
+           std::vector<name> &&vectorAuthor,
            std::vector<character> &&vectorCharacter) {
     this->bookName = bookName;
     this->annotation = annotation;
@@ -27,7 +27,7 @@ std::size_t book::getReleaseYear() const {
     return releaseYear;
 }
 
-std::vector<fullName> book::getVectorAuthor() const {
+std::vector<name> book::getVectorAuthor() const {
     return vectorAuthor;
 }
 
